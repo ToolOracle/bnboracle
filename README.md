@@ -10,7 +10,7 @@ PancakeSwap/Venus TVL, BEP-20 token risk, validator stats, gas tracker, wallet i
 
 ## 8 Tools
 
-All tools return structured JSON with evidence-grade data. Free to use, no API key required for basic access.
+All tools return structured JSON with evidence-grade data.
 
 ## Quick Start
 
