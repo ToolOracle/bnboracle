@@ -1,58 +1,34 @@
-# ⬡ bnbOracle
+# BNBOracle MCP Server
 
-**BNB Chain Intelligence MCP Server** — 8 tools | Part of [ToolOracle](https://tooloracle.io)
+**BNB Chain intelligence for AI agents.**
 
-![Tools](https://img.shields.io/badge/MCP_Tools-8-10B898?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Live-00C853?style=flat-square)
-![Chain](https://img.shields.io/badge/Chain-BNB_Chain-F0B90B?style=flat-square)
-![Tier](https://img.shields.io/badge/Tier-Free-2196F3?style=flat-square)
+Port 11501 | Part of [ToolOracle](https://tooloracle.io) Blockchain Oracle Suite
 
-BEP-20 token risk, BSC contract verification, gas tracker, PancakeSwap DEX liquidity, protocol TVL, stablecoin peg check, wallet intelligence, DeFi yields. Evidence-grade data for institutional DeFi on BNB Chain.
+## What it does
 
-## Quick Connect
+PancakeSwap/Venus TVL, BEP-20 token risk, validator stats, gas tracker, wallet intelligence, stablecoin monitoring.
+
+## 8 Tools
+
+All tools return structured JSON with evidence-grade data. Free to use, no API key required for basic access.
+
+## Quick Start
 
 ```bash
-npx -y mcp-remote https://feedoracle.io/mcp/bnboracle/
+claude mcp add --transport http bnb https://tooloracle.io/bnb/mcp/
 ```
 
-```json
-{
-  "mcpServers": {
-    "bnboracle": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://feedoracle.io/mcp/bnboracle/"]
-    }
-  }
-}
-```
+## Endpoints
 
-## Tools (8)
+- MCP: `https://tooloracle.io/bnb/mcp/`
+- Health: `https://tooloracle.io/bnb/health`
 
-| Tool | Description |
-|------|-------------|
-| `bnb_overview` | BNB Chain overview: BNB price, gas, TVL, latest block |
-| `bnb_token_risk` | BEP-20 token risk: holder concentration, contract info, supply |
-| `bnb_contract_verify` | Contract verification: source code, ABI, proxy detection on BscScan |
-| `bnb_gas` | Gas tracker with USD cost estimates — typical 0.05 gwei, very low fees |
-| `bnb_protocol_tvl` | DeFi protocol TVL on BSC. Empty = top-20 protocols |
-| `bnb_stablecoin_check` | Stablecoin peg check: USDT, USDC, BUSD, FDUSD, DAI on BNB Chain |
-| `bnb_wallet_intel` | Wallet intelligence: BNB balance, recent transactions |
-| `bnb_defi_yields` | Top DeFi yields on BNB Chain filtered by TVL and APY |
+## Part of the ToolOracle Blockchain Suite
 
-## Part of FeedOracle / ToolOracle
+13 dedicated blockchain MCP servers: Bitcoin, Ethereum, Arbitrum, Solana, TON, Sui, BNB, Base, XRPL, XLM, Aptos, Hedera, Flare.
 
-**Blockchain Oracle Suite:**
-- [ethOracle](https://github.com/tooloracle/ethoracle) — Ethereum
-- [xlmOracle](https://github.com/tooloracle/xlmoracle) — Stellar
-- [xrplOracle](https://github.com/tooloracle/xrploracle) — XRP Ledger
-- [bnbOracle](https://github.com/tooloracle/bnboracle) — BNB Chain (this repo)
-- [aptOracle](https://github.com/tooloracle/aptoracle) — Aptos
-- [baseOracle](https://github.com/tooloracle/baseoracle) — Base L2
+[tooloracle.io](https://tooloracle.io)
 
-## Links
+## License
 
-- 🌐 Live: `https://feedoracle.io/mcp/bnboracle/`
-- 🏠 Platform: [feedoracle.io](https://feedoracle.io)
-
----
-*Built by [FeedOracle](https://feedoracle.io) — Evidence by Design*
+MIT
