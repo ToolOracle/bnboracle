@@ -1,0 +1,11 @@
+{
+  "name": "BNBOracle",
+  "description": "BNB Chain intelligence for AI agents — BEP-20 tokens, gas, validators, DeFi data via MCP",
+  "repository": "https://github.com/ToolOracle/bnboracle",
+  "endpoint": "https://tooloracle.io/bnb/mcp/",
+  "health": "https://tooloracle.io/bnb/health",
+  "tools": 8,
+  "license": "MIT",
+  "author": "FeedOracle Technologies",
+  "tags": ["bnb-chain", "mcp", "ai-agent", "tooloracle"]
+}
