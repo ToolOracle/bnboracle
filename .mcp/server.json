@@ -1,0 +1,11 @@
+{
+  "schema_version": "v2.0.0",
+  "name": "io.tooloracle/bnboracle",
+  "description": "BNBOracle \u2014 BNB Chain intelligence: DeFi yields, gas tracker, token risk. 9 tools.",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tooloracle.io/bnb/mcp/"
+    }
+  ]
+}
