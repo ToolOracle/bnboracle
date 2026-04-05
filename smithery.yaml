@@ -1,0 +1,5 @@
+name: BNBOracle
+description: BNB Chain intelligence — 9 tools
+endpoint: https://tooloracle.io/bnb/mcp/
+transport: streamable-http
+license: MIT
